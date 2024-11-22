@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Top Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="PROGRAMACIÓN MULTIMEDIA"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- Main Text (Java created text) -->
+    <TextView
+        android:id="@+id/textJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto construido desde Java\nTamaño 20dp, Italic y color Blue"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center" />
+</LinearLayout>

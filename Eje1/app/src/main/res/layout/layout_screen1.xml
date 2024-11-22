@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Top Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="PROGRAMACIÓN MULTIMEDIA"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- Main Text -->
+    <TextView
+        android:id="@+id/textXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto construido desde el XML\nTamaño 20dp, Bold y color Red"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>

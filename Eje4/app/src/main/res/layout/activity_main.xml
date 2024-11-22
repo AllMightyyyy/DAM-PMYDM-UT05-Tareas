@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header Label -->
+    <TextView
+        android:id="@+id/topLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="PROGRAMACIÓN MULTIMEDIA"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- Display Selected Day -->
+    <TextView
+        android:id="@+id/selectedDayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PULSADO SÁBADO"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FF0000" />
+
+    <!-- RadioGroup for Days -->
+    <RadioGroup
+        android:id="@+id/radioGroupDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <!-- RadioButtons -->
+        <RadioButton
+            android:id="@+id/radioMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LUNES" />
+
+        <RadioButton
+            android:id="@+id/radioTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARTES" />
+
+        <RadioButton
+            android:id="@+id/radioWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIÉRCOLES" />
+
+        <RadioButton
+            android:id="@+id/radioThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUEVES" />
+
+        <RadioButton
+            android:id="@+id/radioFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIERNES" />
+
+        <RadioButton
+            android:id="@+id/radioSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SÁBADO"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOMINGO" />
+    </RadioGroup>
+</LinearLayout>
